@@ -301,41 +301,36 @@ body > div {
     color: rgb(66, 62, 62);
 }
 
-/* Estilo geral do header */
 .header {
-    background-color: #36B7A1;  /* Cor de fundo do header */
-    color: white;  /* Cor do texto */
+    background-color: #36B7A1; 
+    color: white;  
     display: flex;
-    justify-content: space-between;  /* Coloca logo à esquerda e título à direita */
-    align-items: center;  /* Alinha o conteúdo verticalmente */
+    justify-content: space-between; 
+    align-items: center; 
     padding: 0px 0px;
-    width: 100%;  /* O header ocupa toda a largura da tela */
+    width: 100%;  
     position: relative;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Sombra sutil */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
 }
 
-/* Conteúdo do header: logo à esquerda e título centralizado */
 .header-content {
     display: flex;
-    justify-content: space-between;  /* Coloca a logo à esquerda e título à direita */
+    justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 
-/* Contêiner da logo e texto "SSP-Piauí" */
 .logo-container {
     display: flex;
     align-items: center;
 }
 
-/* Imagem no canto esquerdo */
 .header-image {
-    width: 50px;  /* Tamanho da imagem */
-    height: auto;  /* Mantém a proporção da imagem */
-    margin-right: 10px;  /* Espaçamento entre a imagem e o texto */
+    width: 50px;  
+    height: auto; 
+    margin-right: 10px; 
 }
 
-/* Texto "SSP-Piauí" */
 .header-text {
     font-size: 24px;
 
@@ -343,12 +338,11 @@ body > div {
     margin: 0;
 }
 
-/* Título grande */
 .header-title {
     font-size: 28px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;  /* Centraliza o título */
-    flex-grow: 1;  /* Faz o título ocupar o espaço restante */
+    text-align: center;  
+    flex-grow: 1;
     margin: 0;
     
 }
