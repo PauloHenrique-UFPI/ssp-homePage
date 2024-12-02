@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head class="header">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSP-Piauí Vigilância Aberta!</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <div class="header">
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="./imagens/logoSSP.png" alt="Logo" class="header-image">
+                <span class="header-text">SSP-Piauí</span>
+            </div>
+            <h1 class="title">Piauí Vigilância <span style="color: green;">Aberta!</span>: Transparência e Segurança</h1>
+        </div>
+    </div>
+</head>
+
+
+
+<body>
+    <div>
+        <div class="zona1">
+            <card class="cardEspecial">
+                <div>
+                    <h1 class="titulo">Piauí Vigilância <span style="color: green;">Aberta!</span>: Transparência 
+                        e dados para a segurança da nossa região.
+                    </h1>
+                    <p class="texto"> Nosso objetivo é oferecer uma visualização clara de dados
+                        e informações úteis para apoiar as decisões das autoridades
+                        locais.
+                    </p>
+                    <div class="botoes">
+                        <button class="botao0">
+                            Começar
+                            <img src="./imagens/seta.png" alt="Seta">
+                        </button>
+                        <button class="botao1" onclick="location.href='#sobre-nos';">Ler mais</button>
+                    </div>
+                </div>
+                <div>
+                    <img src="./imagens/piauiSemfundo.png" alt="Imagem representativa" class="esconderImagem">
+                </div>
+            </card>
+        </div>
+    
+        <div class="zona2">
+            <h2 class="tituloZona">Painéis de Crimes</h2>
+            <div class="paineis">
+                <card class="cardPainel">
+                    <div>
+                        <a href="#" class="teste">
+                            <h4 class="tituloCard">Mulher</h4>
+                            <p class="paragrafoCard">
+                                Estatatisticas mensais
+                                de violência contra 
+                                mulher.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="avatar-container">
+                        <img src="./imagens/mulher.png" class="avatar">
+                    </div>        
+                </card>
+
+                <card class="cardPainel">
+                    <div>
+                        <a href="#" class="teste">
+                            <h4 class="tituloCard">Policial</h4>
+                            <p class="paragrafoCard">
+                                Estatatisticas de Letalidade e Vitimização Policial.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="avatar-container">
+                        <img src="./imagens/policial.png" class="avatar">
+                    </div>        
+                </card>
+
+                <card class="cardPainel">
+                    <div>
+                        <a href="#" class="teste">
+                            <h4 class="tituloCard">MVIS</h4>
+                            <p class="paragrafoCard">
+                                Estatatisticas mensais
+                                de crimes de Mortes Violentas Intencionais.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="avatar-container">
+                        <img src="./imagens/violencia.png" class="avatar">
+                    </div>        
+                </card>
+
+                <card class="cardPainel">
+                    <div>
+                        <a href="#" class="teste">
+                            <h4 class="tituloCard">Roubos</h4>
+                            <p class="paragrafoCard">
+                                Estatatisticas mensais
+                                de crimes de roubo.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="avatar-container">
+                        <img src="./imagens/roubo.png" class="avatar">
+                    </div>        
+                </card>
+                
+
+                <card class="cardPainel">
+                    <div>
+                        <a href="#" class="teste">
+                            <h4 class="tituloCard">Furtos</h4>
+                            <p class="paragrafoCard">
+                                Estatatisticas mensais
+                                de crimes de furtos.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="avatar-container">
+                        <img src="./imagens/furto.png" class="avatar">
+                    </div>        
+                </card>
+
+               
+            </div>
+        </div>
+
+        <div class="zona3" id="sobre-nos">
+        
+            <div class="faq-container">
+                <!-- Título -->
+                <h1 class="titulo-sobre">Perguntas Frequentes</h1>
+        
+                <div class="faq-content">
+                    <!-- Botões dos Temas -->
+                    <div class="faq-themes">
+                        <button class="faq-theme active" data-theme="op1">GERAL</button>
+                        <button class="faq-theme" data-theme="op2">PLATAFORMA</button>
+                        <button class="faq-theme" data-theme="op3">NOTA DE ATUALIZAÇÃO</button>
+                    </div>
+        
+                    <!-- Perguntas por Tema -->
+                    <div class="faq-questions" id="op1" style="display: block;">
+                        <div class="faq-item">
+                            <div class="faq-question active">O que é a Plataforma de Dados SSP-PI?</div>
+                            <div class="faq-answer" style="display: block;">
+                                <p>A Plataforma de Dados SSP-PI é uma ferramenta digital criada para fornecer informações 
+                                    detalhadas e organizadas sobre segurança pública no estado do Piauí.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">Quem pode acessar os dados da Plataforma?</div>
+                            <div class="faq-answer">
+                                <p>Qualquer cidadão pode acessar os dados da plataforma. Ela é aberta ao público e foi projetada para ser de fácil navegação.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">Como entrar em contato com a Secretaria de Segurança Pública?</div>
+                            <div class="faq-answer">
+                                <p>Você pode entrar em contato pelo telefone (86) 3216 5221 ou pelo e-mail gabinete.ssp@ssp.pi.gov.br.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">Quem Fez os Ícones do Site?</div>
+                            <div class="faq-answer">
+                                <p>
+                                    <div> Ícones feitos por <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik"> Freepik </a> 
+                                        from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com'</a></div>
+                                    <div> Ícones feitos por <a href="https://www.flaticon.com/br/autores/smashicons" 
+                                        title="Smashicons"> Smashicons </a> from <a href="https://www.flaticon.com/br/" 
+                                        title="Flaticon">www.flaticon.com'</a></div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="faq-questions" id="op2">
+                        <div class="faq-item">
+                            <div class="faq-question">Quais informações estão disponíveis na plataforma?</div>
+                            <div class="faq-answer">
+                                <p>A plataforma oferece dados sobre registros criminais, ações policiais, trânsito, violência contra a mulher, 
+                                    controle de armas e indicadores ambientais, entre outros.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">Como a plataforma contribui para a segurança pública</div>
+                            <div class="faq-answer">
+                                <p>Ela promove a transparência, disponibilizando informações acessíveis que podem ser usadas para análises 
+                                    e formulação de políticas públicas eficazes.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="faq-questions" id="op3">
+                        <div class="faq-item">
+                            <div class="faq-question">Pergunta 1</div>
+                            <div class="faq-answer">
+                                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">Pergunta 2</div>
+                            <div class="faq-answer">
+                                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+    
+
+</body>
+
+<footer class="footer">
+    <div class="footer-content">
+        <img src="./imagens/footer.png" alt="Logo SSP-Piauí" class="footer-image">
+        <div class="footer-text">
+            <p>&copy; 2024 SSP-Piauí. Todos os direitos reservados.</p>
+            
+        </div>
+    </div>
+</footer>
+
+
+</html>
+
+<script src="script.js"></script>
