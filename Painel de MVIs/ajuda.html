@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SSP-Piauí Vigilância Aberta!</title>
+    <link rel="stylesheet" href="mvis.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="header-content">
+        <img
+          src="../imagens/footer.png"
+          alt="Logo SSP-Piauí"
+          class="header-image"
+        />
+      </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+      <!-- Ícones principais -->
+      <div class="top-icons">
+        <button class="toggle-btn" id="toggle-btn">☰</button>
+      </div>
+
+      <!-- Separador -->
+      <div class="separator"></div>
+
+      <!-- Itens (tags) -->
+      <a href="/Painel de MVIs/mvis.html" class="sidebar-item">
+        <span class="material-icons icon">leaderboard</span>
+        <span class="text">Dashboard</span>
+      </a>
+      <a href="/Painel de MVIs/ajuda.html" class="sidebar-item">
+        <span class="material-icons icon">help</span>
+        <span class="text">Ajuda</span>
+      </a>
+      <a href="/Painel de MVIs/metodologia.html" class="sidebar-item">
+        <span class="material-icons icon">menu_book</span>
+        <span class="text">Metodologia</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="/index.html" class="sidebar-item">
+        <span class="material-icons icon">home</span>
+        <span class="text">Página Home</span>
+      </a>
+    </div>
+  </head>
+
+  <body>
+    <div class="card">
+      <div class="info">
+        <div>
+          <h3 class="titulo">Coleta de Dados</h3>
+          <p class="paragrafo">
+            Os dados utilizados no dashboard foram coletados de fontes
+            confiáveis, como bases de dados governamentais, registros policiais,
+            ou instituições de pesquisa reconhecidas. A periodicidade da coleta
+            é definida para assegurar a atualização constante do sistema,
+            permitindo análises em tempo real ou conforme o período selecionado.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="titulo">Tratamento e Organização dos Dados</h3>
+          <p class="paragrafo">
+            Antes da integração ao Metabase, os dados passam por um processo de
+            limpeza e padronização, eliminando duplicidades, corrigindo
+            inconsistências e preenchendo lacunas relevantes. Posteriormente, os
+            dados são organizados em tabelas relacionais e armazenados em um
+            banco de dados otimizado para consultas analíticas.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="titulo">Análises Quantitativas e Geográficas</h3>
+          <p class="paragrafo">
+            Para explorar os diferentes aspectos das mortes violentas
+            intencionais, o dashboard combina análises quantitativas e
+            geográficas:
+            <li class="subtopico">
+              Tabelas Resumidas: Apresentam informações agregadas, como total de
+              casos por região, faixa etária e gênero, permitindo identificar
+              padrões gerais.
+            </li>
+            <li class="subtopico">
+              Mapas Interativos: Visualizam a distribuição espacial das mortes,
+              auxiliando na identificação de regiões críticas ou padrões
+              geográficos.
+            </li>
+            <li class="subtopico">
+              Séries Temporais: Gráficos que analisam tendências ao longo do
+              tempo, como variações sazonais ou impacto de políticas públicas.
+            </li>
+          </p>
+        </div>
+
+        <div>
+          <h3 class="titulo">Indicadores e Filtros Personalizados</h3>
+          <p class="paragrafo">
+            Os indicadores foram definidos para destacar métricas importantes,
+            como taxa de mortalidade por 100 mil habitantes, crescimento
+            percentual em relação ao ano anterior, e proporção por causas
+            específicas. Além disso, o uso de filtros personalizados permite aos
+            usuários segmentar os dados por localidade, período, ou outras
+            variáveis de interesse.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="titulo">Integração e Visualização no Metabase</h3>
+          <p class="paragrafo">
+            O Metabase foi escolhido como ferramenta de visualização devido à
+            sua flexibilidade e facilidade de uso. Os gráficos e tabelas
+            apresentados no dashboard foram configurados para garantir clareza,
+            precisão e responsividade, permitindo que gestores e analistas
+            extraiam insights de forma prática e objetiva.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="titulo">Validação e Monitoramento Contínuos</h3>
+          <p class="paragrafo">
+            Os resultados gerados pelo dashboard são validados periodicamente
+            por especialistas para garantir consistência com os registros
+            originais. Além disso, o sistema é monitorado continuamente para
+            detectar e corrigir possíveis erros ou desvios nas análises.
+          </p>
+        </div>
+
+        <div class="final"></div>
+      </div>
+    </div>
+  </body>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-text">
+        <p>&copy; 2024 SSP-Piauí. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+</html>
+
+<script src="mvis.js"></script>
